@@ -1,7 +1,7 @@
 {
-  "name": "turf-node-example",
+  "name": "turf-node-calculate-distance",
   "version": "1.0.0",
-  "description": "an example of using turf with node to run a simple processing script",
+  "description": "an example of using turf with node to calculate distance between two points, based on turf-node-example",
   "main": "index.js",
   "scripts": {},
   "keywords": [
@@ -12,13 +12,15 @@
     "gis",
     "geospatial"
   ],
-  "author": "Tom MacWright",
-  "license": "ISC",
+  "author": "Rizky Solechudin",
+  "license": "MIT",
   "dependencies": {
+    "async": "^2.4.0",
+    "csv-parse": "^1.2.0",
     "turf": "^2.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Turfjs/turf-node-example.git"
+    "url": "https://github.com/risoll/turf-calc-distance.git"
   }
 }
